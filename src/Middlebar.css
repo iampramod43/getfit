@@ -1,0 +1,87 @@
+.middlebar{
+    flex: 0.2;
+}
+.middlebar__filter{
+    background-image: linear-gradient( to bottom, #b8c7e6, white);
+    padding: 0 5px;
+}
+.middlebar__addCategory > h3 {
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #4880F1;
+    color: white;
+    font-size: 15px;
+}
+
+ .MuiInput-root{
+    font-size: 13px !important;
+    height: 30px !important;
+}
+.MuiFormControl-marginNormal {
+    margin-top: 0 !important; 
+    margin-bottom: 0 !important;
+    width: 100%;
+}
+.MuiInput-underline::after {
+    border-bottom: none !important;
+}
+
+.MuiInput-underline::before {
+    border-bottom: none !important;
+}
+
+.middlebar__categories{
+    display: flex;
+    flex-direction: column;
+}
+
+.middlebar__cat{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+}
+
+.middlebar__left{
+    display: flex;
+    flex-direction: column;
+}
+
+.middlebar__title{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.middlebar__products{
+    font-size: 15px;
+}
+
+.middlebar__cal {
+    font-size: 13px;
+}
+
+.middlebar__protein{
+    background-color: rgb(185, 255, 185);
+    padding: 5px 10px;
+}
+
+.middlebar__carbs{
+    background-color: rgb(255, 196, 196);
+    padding: 5px 10px;
+}
+
+.middlebar__fats{
+    background-color: rgb(252, 252, 181);
+    padding: 5px 10px;
+}
+
+.middlebar__fiber{
+    background-color: rgb(255, 199, 255);
+    padding: 5px 10px;
+}
+
+.middlebar__right > .MuiSvgIcon-root{
+    color: gray;
+}

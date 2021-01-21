@@ -1,0 +1,68 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    flex: 0.1;
+}
+
+.sidebar__top{
+    display: flex;
+    align-items: center;
+    flex: 0.2;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sidebar__middle{
+display: flex;
+flex-direction: column;
+flex: 0.7;
+}
+
+.sidebar__middle > h3{
+    font-size: 15px;
+    color: gray;
+}
+
+.sidebar__menuItems{
+    display: flex;
+    flex-direction: column;
+    color: gray;
+}
+
+.sidebar__item{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.sidebar__item > p{
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.sidebar__item:hover > p{
+    font-weight: bold;
+}
+.sidebar__item > .MuiSvgIcon-root{
+    margin-left: 10px;
+}
+
+
+
+.sidebar__item:hover{
+    color: #6A5CD8;
+    background-color: whitesmoke;
+    border-left: 3px solid #6A5CD8;
+}
+.sidebar__bottom > .MuiSvgIcon-root{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    color: gray;
+}
+
+.sidebar__bottom{
+    display: flex;
+    justify-content: center;
+}
